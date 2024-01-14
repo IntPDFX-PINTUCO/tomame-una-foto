@@ -1,0 +1,39 @@
+body {
+    font-weight: bolder;
+}
+
+#camara, #resultado {
+    margin: 0 auto;
+    width: 360px;
+    height: 250px;
+    border: 1px dotted grey;
+    background-size: 360px 250px;
+    transform:translateX(-1)
+}
+
+#camara{
+    background-image: url(selfie.jpg);
+    
+}
+#resultado{
+    background-image: url(resultado.jpg);
+}
+
+#logo_img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#textbox {
+    width: 300px;
+}
+#gif{
+    height: 100vh;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+}
